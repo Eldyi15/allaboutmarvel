@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@700&display=swap");
+h3 {
+  font-family: "Barlow Condensed";
+}
+.searchField {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+.featured-character {
+  font-family: "Barlow Condensed";
+
+  display: flex;
+  h3 {
+    font-size: 30px;
+  }
+}
+.image-cont {
+  display: flex;
+  width: 30%;
+
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+}

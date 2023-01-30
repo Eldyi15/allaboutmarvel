@@ -1,0 +1,27 @@
+@font-face {
+  font-family: "marvelFonts";
+  src: local("marvelFonts"), url("./../styles/fonts/MarvelRegular-Dj83.ttf");
+}
+.header {
+  display: flex;
+  //   font-family: "marvelFonts";
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+.links {
+  display: flex;
+  justify-content: space-around;
+  width: 20%;
+  font-weight: bold;
+}
+.tool-bar {
+  background-color: white;
+}
+.logo {
+  color: red;
+  font-weight: bold !important;
+  letter-spacing: 1px !important;
+  font-family: "marvelFonts" !important;
+  font-size: 40px !important;
+}

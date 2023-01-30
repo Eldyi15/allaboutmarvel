@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+.routes {
+  /* margin-top: 64px; */
+  height: calc(100% - 64px);
+}
+.header {
+  position: fixed;
+  z-index: 9999;
+  width: 100vw;
+}
