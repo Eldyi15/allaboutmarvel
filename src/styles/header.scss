@@ -3,7 +3,7 @@
   src: local("marvelFonts"), url("./../styles/fonts/MarvelRegular-Dj83.ttf");
 }
 .header {
-  display: flex;
+  // display: flex;
   //   font-family: "marvelFonts";
   font-weight: bolder;
   letter-spacing: 1px;
@@ -11,17 +11,76 @@
 
 .links {
   display: flex;
-  justify-content: space-around;
+  // justify-content: space-around;
+  justify-content: end;
   width: 20%;
   font-weight: bold;
+  a {
+    margin: 0.5rem;
+  }
 }
 .tool-bar {
   background-color: white;
+  display: flex;
+  justify-content: space-between;
 }
-.logo {
-  color: red;
-  font-weight: bold !important;
-  letter-spacing: 1px !important;
-  font-family: "marvelFonts" !important;
-  font-size: 40px !important;
+
+// .menu-bar-header {
+//   display: block;
+// }
+
+@media only screen and (min-width: 1024px) {
+  .menu-bar-header {
+    display: none;
+  }
+  // .header {
+  //   display: none;
+  // }
+  .logo {
+    color: red;
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+    font-family: "marvelFonts" !important;
+    font-size: 40px !important;
+  }
+}
+@media only screen and (max-width: 1023px) {
+  .header {
+    display: none;
+  }
+  .menu-bar-header {
+    font-weight: bolder;
+    letter-spacing: 1px;
+  }
+  .menu-icon {
+    color: red !important;
+  }
+  .logo {
+    color: red;
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+    font-family: "marvelFonts" !important;
+    font-size: 30px !important;
+  }
+  .logo-menu {
+    height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.5rem;
+    color: red;
+
+    font-weight: bold !important;
+    letter-spacing: 1px !important;
+    font-family: "marvelFonts" !important;
+    font-size: 30px !important;
+    box-shadow: rgb(209, 209, 209) 1px 1px 1px 1px;
+  }
+  .list {
+    padding: 0 0.5rem;
+  }
+}
+
+.MuiDrawer-paper {
+  width: 30% !important;
 }

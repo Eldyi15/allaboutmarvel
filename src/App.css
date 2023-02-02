@@ -40,8 +40,8 @@
   /* margin-top: 64px; */
   height: calc(100% - 64px);
 }
-.header {
+.app-header {
   position: fixed;
   z-index: 9999;
-  width: 100vw;
+  width: 100%;
 }

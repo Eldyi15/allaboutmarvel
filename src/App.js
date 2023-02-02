@@ -9,7 +9,7 @@ import Characters from "./components/Characters";
 function App() {
   return (
     <>
-      <div className="header">
+      <div className="app-header">
         <Header></Header>
       </div>
       <div className="routes">
