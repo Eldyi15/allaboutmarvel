@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/allaboutmarvel/static/css/main.52d26ca0.css",
+    "main.js": "/allaboutmarvel/static/js/main.45b75416.js",
+    "static/js/787.b701888c.chunk.js": "/allaboutmarvel/static/js/787.b701888c.chunk.js",
+    "static/media/MarvelRegular-Dj83.ttf": "/allaboutmarvel/static/media/MarvelRegular-Dj83.329acb512a429ca2049d.ttf",
+    "index.html": "/allaboutmarvel/index.html",
+    "main.52d26ca0.css.map": "/allaboutmarvel/static/css/main.52d26ca0.css.map",
+    "main.45b75416.js.map": "/allaboutmarvel/static/js/main.45b75416.js.map",
+    "787.b701888c.chunk.js.map": "/allaboutmarvel/static/js/787.b701888c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.52d26ca0.css",
+    "static/js/main.45b75416.js"
+  ]
+}
